@@ -1,0 +1,28 @@
+@import url(/css/style.css);
+
+:root {
+    --purple: #5B3178;
+    --yellow: #FFC300;
+}
+
+.catalog {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.catalog img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    transition: all ease-in-out 200ms;
+}
+
+.catalog img:hover {
+    border: 5px solid var(--yellow);
+}
+
+.acai, .cupua {
+    width: 48%;
+}
